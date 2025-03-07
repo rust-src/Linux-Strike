@@ -10,7 +10,7 @@ It can be built 100% Open-Source with optional Closed-source components.<br>
  <h1 align="center"> Features / Additions </h1>
  
  - Now when you control the bots, guns will not get lost
- - Bots will now aim more accurately
+ - Bots will now play more accurately
  - Fixed issue that molotov flame being spawned under you 
  - "Cant Create Mixer" issues fixed, now game can find sounds
  - Fixed some breakable props fly away or doing strange behaviour
