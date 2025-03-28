@@ -11,7 +11,7 @@ It can be built 100% Open-Source with optional Closed-source components.<br>
  
  - Now when you control the bots, guns will not get lost
  - Bots will now play more accurately
- - Fixed issue that molotov flame being spawned under you 
+ - Fixed issue that molotov flame being spawns under your legs
  - "Cant Create Mixer" issues fixed, now game can find sounds
  - Fixed some breakable props fly away or doing strange behaviour
  - Fixed weapon entries in the buy menu so you can buy all the guns completely fine
