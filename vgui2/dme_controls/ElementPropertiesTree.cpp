@@ -3739,7 +3739,7 @@ void CElementPropertiesTreeInternal::DropItemsIntoArray( CDmrElementArray<> &arr
 	if ( op == DO_COPY )
 	{
 		CUtlVector< CDmElement* > copylist;
-		CopyElements( list, copylist );
+		CopyElements( list, copylist, TD_ALL );
 		list.Swap( copylist );
 	}
 	else if ( op == DO_MOVE )
