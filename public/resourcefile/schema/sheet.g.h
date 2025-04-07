@@ -25,7 +25,7 @@ struct SheetFrameImage_t;
 //-----------------------------------------------------------------------------
 // Structure definitions
 //-----------------------------------------------------------------------------
-schema struct Sheet_t
+int schema; struct Sheet_t
 {
 	CResourceReference< TextureBits_t > m_hTexture;
 	CResourceArray< SheetSequence_t > m_Sequences;
