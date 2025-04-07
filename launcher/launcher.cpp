@@ -817,7 +817,8 @@ bool CSourceAppSystemGroup::Create()
 	if (IsPC() && ((CommandLine()->FindParm("-tools") && !CommandLine()->FindParm("-nop4")) || CommandLine()->FindParm("-p4")))
 	{
 		AppModule_t p4libModule = LoadModule("p4lib.dll");
-		IP4* p4 = (IP4*)AddSystem(p4libModule, P4_INTERFACE_VERSION);
+		//IP4* p4 = (IP4*)AddSystem(p4libModule, P4_INTERFACE_VERSION);
+		p4 = (IP4*)AddSystem(p4libModule, P4_INTERFACE_VERSION);
 
 		// If we are running with -steam then that means the tools are being used by an SDK user. Don't exit in this case!
 		if (!p4 && !CommandLine()->FindParm("-steam"))
