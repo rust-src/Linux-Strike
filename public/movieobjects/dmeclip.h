@@ -10,7 +10,7 @@
 #pragma once
 #endif
 
-#include "dmechannel.h" // lwss - add include for ChannelMode_t
+//#include "dmechannel.h" // lwss - add include for ChannelMode_t
 #include "datamodel/dmelement.h"
 #include "datamodel/dmattribute.h"
 #include "datamodel/dmattributevar.h"
