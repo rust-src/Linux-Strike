@@ -1174,7 +1174,7 @@ InitReturnVal_t CHammer::HammerInternalInit()
 		LoggingSystem_PushLoggingState();
 		LoggingSystem_RegisterLoggingListener( &s_SimpleWindowsLoggingListener );
 		LoggingSystem_RegisterLoggingListener( &s_HammerMessageLoggingListener );
-		MathLib_Init( 2.2f, 2.2f, 0.0f, 2.0f, false, false, false, false );
+		MathLib_Init( 2.2f, 2.2f, 0.0f, 2.0f, false, false, false);
 	}
 
 	InitReturnVal_t nRetVal = BaseClass::Init();
