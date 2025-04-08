@@ -22,7 +22,7 @@
 #pragma warning(push)
 #pragma warning( disable:4512 )
 #include <tier0/valve_minmax_off.h>
-#include "steammessages.pb.h"
+#include "generated_proto/steammessages.pb.h"
 #include <tier0/valve_minmax_on.h>
 #pragma warning(pop)
 
