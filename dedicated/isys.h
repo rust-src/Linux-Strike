@@ -29,7 +29,7 @@ public:
 	virtual void		WriteStatusText( char *szText ) = 0;
 	virtual void		UpdateStatus( int force ) = 0;
 
-	virtual long		LoadLibrary( const char *lib ) = 0;
+	virtual long		LoadLibrary( const char *lib ) = 0; 
 	virtual void		FreeLibrary( long library ) = 0;
 
 	virtual bool		CreateConsoleWindow( void ) = 0;
