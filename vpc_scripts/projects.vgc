@@ -532,10 +532,10 @@ $Project "hlfaceposer"
 	"utils/hlfaceposer/hlfaceposer.vpc" [$WINDOWS]
 }
 
-$Project "hlmv"
-{
-	"utils/hlmv/hlmv.vpc" [$WINDOWS]
-}
+//$Project "hlmv"
+//{
+//	"utils/hlmv/hlmv.vpc" [$WINDOWS]
+//}
 
 $Project "hl_res_us"
 {
