@@ -527,10 +527,10 @@ $Project "lbfgs_test"
 	"utils/lbfgs_test/lbfgs_test.vpc" [$WINDOWS]
 }
 
-$Project "hlfaceposer"
-{
-	"utils/hlfaceposer/hlfaceposer.vpc" [$WINDOWS]
-}
+//$Project "hlfaceposer"
+//{
+//	"utils/hlfaceposer/hlfaceposer.vpc" [$WINDOWS]
+//}
 
 //$Project "hlmv"
 //{
@@ -552,10 +552,10 @@ $Project "hl_sdk_hl2"
 	"game/server/hl_sdk_hl2.vpc" [$WINDOWS]
 }
 
-$Project "hlsl_to_glsl"
-{
-	"utils/hlsl_to_glsl/hlsl_to_glsl.vpc" [$WINDOWS]
-}
+//$Project "hlsl_to_glsl"
+//{
+//	"utils/hlsl_to_glsl/hlsl_to_glsl.vpc" [$WINDOWS]
+//}
 
 //$Project "ifm"
 //{
@@ -582,10 +582,10 @@ $Project "interfaces"
 	"interfaces/interfaces.vpc" [$WINDOWS || $WIN64 || $X360 || $POSIX || $PS3]
 }
 
-$Project "ipccomm"
-{
-	"utils/ipccomm/ipccomm.vpc" [$WINDOWS]
-}
+//$Project "ipccomm"
+//{
+//	"utils/ipccomm/ipccomm.vpc" [$WINDOWS]
+//}
 
 $Project "ivp_compactbuilder"
 {
@@ -597,10 +597,10 @@ $Project "ivp_physics"
 	"ivp/ivp_physics/ivp_physics.vpc" [$WINDOWS || $X360 || $DEDICATED || $PS3 || $POSIX]
 }
 
-$Project "jpeglib"
-{
-	"utils/jpeglib/jpeglib.vpc" [$WINDOWS || $POSIX ]
-}
+//$Project "jpeglib"
+//{
+//	"utils/jpeglib/jpeglib.vpc" [$WINDOWS || $POSIX ]
+//}
 
 $Project "job_accumpose"
 {
@@ -707,10 +707,10 @@ $Project "job_zpass"
 	"vjobs/graphics/job_zpass/job_zpass.vpc" [$PS3]
 }
 
-$Project "kvc"
-{
-	"utils/kvc/kvc.vpc" [$WINDOWS]
-}
+//$Project "kvc"
+//{
+//	"utils/kvc/kvc.vpc" [$WINDOWS]
+//}
 
 //$Project "launcher"
 //{
@@ -722,25 +722,25 @@ $Project "launcher_main"
 	"launcher_main/launcher_main.vpc" [$WINDOWS||$X360||$PS3||$POSIX]
 }
 
-$Project "libmad"
-{
-	"utils/libmad/libmad.vpc" [$WINDOWS]
-}
+//$Project "libmad"
+//{
+//	"utils/libmad/libmad.vpc" [$WINDOWS]
+//}
 
 //$Project "LicenseViewed"
 //{
 //	"devtools/WiseInstallerHelpers/LicenseViewed.vpc" [$WINDOWS]
 //}
 
-$Project "lightworld"
-{
-	"utils/lightworld/lightworld.vpc" [$WINDOWS]
-}
+//$Project "lightworld"
+//{
+//	"utils/lightworld/lightworld.vpc" [$WINDOWS]
+//}
 
-$Project "localization_check"
-{
-	"utils/localization_check/localization_check.vpc" [$WINDOWS]
-}
+//$Project "localization_check"
+//{
+//	"utils/localization_check/localization_check.vpc" [$WINDOWS]
+//}
 
 $Project "localresource"
 {
@@ -762,45 +762,45 @@ $Project "lxvsdmxio_modo401"
 	"sdktools/modo/lxVsDmxIO/lxvsdmxio_modo401.vpc" [$WINDOWS]
 }
 
-$Project "lzma"
-{
-	"utils/lzma/lzma.vpc" [$WINDOWS||$POSIX]
-}
+//$Project "lzma"
+//{
+//	"utils/lzma/lzma.vpc" [$WINDOWS||$POSIX]
+//}
 
-$Project "MakeGameData"
-{
-	"utils/xbox/MakeGameData/MakeGameData.vpc" [$WINDOWS && !$SOB]
-}
+//$Project "MakeGameData"
+//{
+//	"utils/xbox/MakeGameData/MakeGameData.vpc" [$WINDOWS && !$SOB]
+//}
 
-$Project "MakeSoundCache"
-{
-	"utils/makesoundcache/makesoundcache.vpc" [$WINDOWS]
-}
+//$Project "MakeSoundCache"
+//{
+//	"utils/makesoundcache/makesoundcache.vpc" [$WINDOWS]
+//}
 
-$Project "makephx"
-{
-	"utils/xbox/makephx/makephx.vpc" [$WINDOWS]
-}
+//$Project "makephx"
+//{
+//	"utils/xbox/makephx/makephx.vpc" [$WINDOWS]
+//}
 
-$Project "makexcs"
-{
-	"utils/xbox/makexcs/makexcs.vpc" [$WINDOWS]
-}
+//$Project "makexcs"
+//{
+//	"utils/xbox/makexcs/makexcs.vpc" [$WINDOWS]
+//}
 
-$Project "makextf"
-{
-	"utils/xbox/makextf/makextf.vpc" [$WINDOWS]
-}
+//$Project "makextf"
+//{
+//	"utils/xbox/makextf/makextf.vpc" [$WINDOWS]
+//}
 
-$Project "makexvcd"
-{
-	"utils/xbox/makexvcd/makexvcd.vpc" [$WINDOWS]
-}
+//$Project "makexvcd"
+//{
+//	"utils/xbox/makexvcd/makexvcd.vpc" [$WINDOWS]
+//}
 
-$Project "makexzip"
-{
-	"utils/xbox/makexzip/makexzip.vpc" [$WINDOWS]
-}
+//$Project "makexzip"
+//{
+//	"utils/xbox/makexzip/makexzip.vpc" [$WINDOWS]
+//} 
 
 $Project "map_crack"
 {
