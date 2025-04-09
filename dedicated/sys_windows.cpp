@@ -45,7 +45,7 @@ extern bool g_bVGui;
 class CSys : public ISys
 {
 public:
-	virtual		~CSys( void );
+	virtual		~CSys();
 
 	virtual bool LoadModules( CDedicatedAppSystemGroup *pAppSystemGroup );
 
@@ -56,8 +56,7 @@ public:
 	void		WriteStatusText( char *szText );
 	void		UpdateStatus( int force );
 
-	long		LoadLibrary(const char* lib) override;
-
+	long		LoadLibrary( char* lib );
 	void		FreeLibrary( long library );
 
 	bool		CreateConsoleWindow( void );
