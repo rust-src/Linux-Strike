@@ -712,10 +712,10 @@ $Project "kvc"
 	"utils/kvc/kvc.vpc" [$WINDOWS]
 }
 
-$Project "launcher"
-{
-	"launcher/launcher.vpc" [$WINDOWS||$X360||$PS3||$POSIX]
-}
+//$Project "launcher"
+//{
+//	"launcher/launcher.vpc" [$WINDOWS||$X360||$PS3||$POSIX]
+//}
 
 $Project "launcher_main"
 {
