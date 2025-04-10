@@ -13,10 +13,10 @@ $Project "libantlr3c"
 	"antlr/libantlr3c.vpc" [$WINDOWS]
 }
 
-$Project "vtex_gui"
-{
-	"utils/vtex_gui/vtex_gui.vpc" [$WINDOWS]
-}
+//$Project "vtex_gui"
+//{
+//	"utils/vtex_gui/vtex_gui.vpc" [$WINDOWS]
+//}
 
 $Project "p4cc"
 {
@@ -2204,15 +2204,15 @@ $Project "vtaexp"
 	"utils/vtaexp/vtaexp.vpc" [$WINDOWS]
 }
 
-$Project "vtex_dll"
-{
-	"utils/vtex/vtex_dll.vpc" [$WINDOWS||$OSXALL]
-}
+//$Project "vtex_dll"
+//{
+//	"utils/vtex/vtex_dll.vpc" [$WINDOWS||$OSXALL]
+//}
 
-$Project "vtex_launcher"
-{
-	"utils/vtex/vtex_launcher.vpc" [$WINDOWS]
-}
+//$Project "vtex_launcher"
+//{
+//	"utils/vtex/vtex_launcher.vpc" [$WINDOWS]
+//}
 
 $Project "vtf"
 {
@@ -2310,45 +2310,45 @@ $Project "XLSPMasterTest"
 	"utils/xbox/XLSPMasterTest/XLSPMasterTest.vpc" [$WINDOWS]
 }
 
-$Project "xwad"
-{
-	"utils/xwad/xwad.vpc" [$WINDOWS]
-}
+//$Project "xwad"
+//{
+//	"utils/xwad/xwad.vpc" [$WINDOWS]
+//}
 
-$Project "ZipAlign"
-{
-	"utils/zipalign/ZipAlign.vpc" [$WINDOWS]
-}
+//$Project "ZipAlign"
+//{
+//	"utils/zipalign/ZipAlign.vpc" [$WINDOWS]
+//}
 
 $Project "socketlib"
 {
 	"socketlib/socketlib.vpc"   [$WINDOWS||$X360]
 }
 
-$Project "videocache"
-{
-	"utils/videocache/videocache.vpc" [$WINDOWS]
-}
+//$Project "videocache"
+//{
+//	"utils/videocache/videocache.vpc" [$WINDOWS]
+//}
 
 $Project "localize"
 {
 	"localize/localize.vpc"
 }
 
-$Project "ps3shaderoptimizer"
-{
-	"utils/ps3/ps3shaderoptimizer/ps3shaderoptimizer.vpc" [$WINDOWS]
-}
+//$Project "ps3shaderoptimizer"
+//{
+//	"utils/ps3/ps3shaderoptimizer/ps3shaderoptimizer.vpc" [$WINDOWS]
+//}
 
-$Project "vdf2trx"
-{
-	"utils/ps3/vdf2trx/vdf2trx.vpc" [$WINDOWS]
-}
+//$Project "vdf2trx"
+//{
+//	"utils/ps3/vdf2trx/vdf2trx.vpc" [$WINDOWS]
+//}
 
-$Project "build_econ_items_game"
-{
-	"utils\build_econ_items_game\csgo_build_econ_items_game.vpc" [$CSGO]
-}
+//$Project "build_econ_items_game"
+//{
+//	"utils\build_econ_items_game\csgo_build_econ_items_game.vpc" [$CSGO]
+//}
 
 $Project "zlib"
 {
