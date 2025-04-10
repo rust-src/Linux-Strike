@@ -30,6 +30,8 @@
 
 #include "materialsystem/MaterialSystemUtil.h"
 
+#include "networkvar.h"
+
 #if defined(TF_DLL)
 #include "tf_item_schema.h"
 #endif //#if defined(TF_DLL)
