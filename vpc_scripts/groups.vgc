@@ -102,6 +102,16 @@ $Group "csgo_partner"
 	"vtf"
 }
 
+$Group "csgo_trimmed"
+{
+	"client"
+	"mathlib"
+	"raytrace"
+	"server"
+	"tier1"
+	"vgui_controls"
+}
+
 $Group "csgo_partner_linux"
 {
 	"appframework"
