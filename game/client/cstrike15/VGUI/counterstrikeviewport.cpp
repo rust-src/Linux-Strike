@@ -51,13 +51,13 @@
 #include "basepanel.h"
 #endif
 
-ConVar crosshair( "crosshair", "1", FCVAR_ARCHIVE  | FCVAR_SS );
-ConVar cl_disablefreezecam(
-        "cl_disablefreezecam",
-        "0",
-        FCVAR_ARCHIVE,
-        "Turn on/off freezecam on client"
-);
+//ConVar crosshair( "crosshair", "1", FCVAR_ARCHIVE  | FCVAR_SS );
+//ConVar cl_disablefreezecam(
+//        "cl_disablefreezecam",
+//        "0",
+//        FCVAR_ARCHIVE,
+//        "Turn on/off freezecam on client"
+//);
 static void OpenPanelWithCheck( const char *panelToOpen, const char *panelToCheck )
 {
 	IViewPortPanel *checkPanel = GetViewPortInterface()->FindPanelByName( panelToCheck );

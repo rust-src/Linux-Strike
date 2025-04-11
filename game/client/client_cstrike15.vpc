@@ -13,7 +13,7 @@ $include "$SRCDIR\game\shared\cstrike15\cstrike15_usermessages_include.vpc"
 $Include "$SRCDIR\game\client\client_econ_base.vpc" [!$X360 && !$PS3]
 
 $include "$SRCDIR\external\external.vpc"
-$include "$SRCDIR\external\$EXTERNALCRYPTOPP\external_cryptopp.vpc"
+//$include "$SRCDIR\external\$EXTERNALCRYPTOPP\external_cryptopp.vpc"
 
 $Configuration "Debug"
 {

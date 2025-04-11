@@ -83,14 +83,14 @@ void CS_FreezePanel_ResetDamageText( int iPlayerIndexKiller, int iPlayerIndexVic
 	}
 }
 
-void CS_FreezePanel_OnHltvReplayButtonStateChanged()
-{
-	SFHudFreezePanel *pPanel = GET_HUDELEMENT( SFHudFreezePanel );
-	if ( pPanel )
-	{
-		pPanel->OnHltvReplayButtonStateChanged();
-	}
-}
+//void CS_FreezePanel_OnHltvReplayButtonStateChanged()
+//{
+//	SFHudFreezePanel *pPanel = GET_HUDELEMENT( SFHudFreezePanel );
+//	if ( pPanel )
+//	{
+//		pPanel->OnHltvReplayButtonStateChanged();
+//	}
+//}
 
 
 

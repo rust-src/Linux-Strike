@@ -20,11 +20,11 @@ using namespace vgui;
 
 #if defined( CSTRIKE15 )
 
-extern bool IsTakingAFreezecamScreenshot( void );
-bool IsTakingAFreezecamScreenshot( void )
-{
-    return false;
-}
+//extern bool IsTakingAFreezecamScreenshot( void );
+//bool IsTakingAFreezecamScreenshot( void )
+//{
+//    return false;
+//}
 
 extern ConVar cl_drawhud;
 //extern ConVar sfcrosshair;
@@ -74,7 +74,7 @@ bool CHudWeapon::ShouldDraw()
 	//2 = classic standard
 	//3 = classic dynamic
 	//4 = classic static
-	if ( !crosshair.GetBool() || cl_crosshairstyle.GetInt() < 2 || IsTakingAFreezecamScreenshot() || !cl_drawhud.GetBool() )
+	if ( !crosshair.GetBool() || cl_crosshairstyle.GetInt() < 2 /*|| IsTakingAFreezecamScreenshot()*/ || !cl_drawhud.GetBool() )
 	//if ( !crosshair.GetBool() || sfcrosshair.GetBool() || IsTakingAFreezecamScreenshot() || !cl_drawhud.GetBool() )
 	{
 		return false;

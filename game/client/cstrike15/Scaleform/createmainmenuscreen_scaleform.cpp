@@ -235,20 +235,20 @@ void CCreateMainMenuScreenScaleform::FlashReady( void )
 //	}
 }
 
-#ifdef IS_WINDOWS_PC
-CON_COMMAND_F( error_message_explain_xboxdvr, "Take user to Steam support article", FCVAR_CLIENTCMD_CAN_EXECUTE | FCVAR_HIDDEN )
-{
-	vgui::system()->ShellExecute( "open", "https://support.steampowered.com/kb_article.php?ref=6239-DZCB-8600" );
-}
-CON_COMMAND_F( error_message_silence_xboxdvr, "Take user to Steam support article", FCVAR_CLIENTCMD_CAN_EXECUTE | FCVAR_HIDDEN )
-{
-	struct tm tmNow;
-	Plat_GetLocalTime( &tmNow );
-	time_t tgm = Plat_timegm( &tmNow );
-	cl_error_message_check_xboxdvr.SetValue( ( int ) tgm );
-	engine->ClientCmd_Unrestricted( "host_writeconfig\n" );
-}
-#endif
+//#ifdef IS_WINDOWS_PC
+//CON_COMMAND_F( error_message_explain_xboxdvr, "Take user to Steam support article", FCVAR_CLIENTCMD_CAN_EXECUTE | FCVAR_HIDDEN )
+//{
+//	vgui::system()->ShellExecute( "open", "https://support.steampowered.com/kb_article.php?ref=6239-DZCB-8600" );
+//}
+//CON_COMMAND_F( error_message_silence_xboxdvr, "Take user to Steam support article", FCVAR_CLIENTCMD_CAN_EXECUTE | FCVAR_HIDDEN )
+//{
+//	struct tm tmNow;
+//	Plat_GetLocalTime( &tmNow );
+//	time_t tgm = Plat_timegm( &tmNow );
+//	cl_error_message_check_xboxdvr.SetValue( ( int ) tgm );
+//	engine->ClientCmd_Unrestricted( "host_writeconfig\n" );
+//}
+//#endif
 
 
 void CCreateMainMenuScreenScaleform::PostUnloadFlash( void )
