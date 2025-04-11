@@ -3,7 +3,7 @@ $Configuration
 {
 	$Compiler
 	{
-		$AdditionalIncludeDirectories	"$BASE,$SRCDIR\gcsdk\steamextra,..\common,$SRCDIR\thirdparty\protobuf-2.5.0\src"
+		$AdditionalIncludeDirectories	"$BASE,$SRCDIR\gcsdk\steamextra,..\common,$SRCDIR\thirdparty\protobuf-3.5.1\src"
 		$AdditionalIncludeDirectories	"$BASE,..\common\xlast_$GAMENAME"				[!$DEMO]
 		$AdditionalIncludeDirectories	"$BASE,..\common\xlast_$GAMENAME_demo"			[$DEMO]
 		$PreprocessorDefinitions		"$BASE;NO_STRING_T;VECTOR;VERSION_SAFE_STEAM_API_INTERFACES;PROTECTED_THINGS_ENABLE;NO_STEAM_GAMECOORDINATOR"

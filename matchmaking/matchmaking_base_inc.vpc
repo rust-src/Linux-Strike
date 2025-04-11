@@ -12,7 +12,7 @@ $Configuration
 {
 	$Compiler
 	{
-		$AdditionalIncludeDirectories	"$BASE,..\common,$SRCDIR\gcsdk\steamextra,$SRCDIR\game\shared,$SRCDIR\thirdparty\protobuf-2.5.0\src"
+		$AdditionalIncludeDirectories	"$BASE,..\common,$SRCDIR\gcsdk\steamextra,$SRCDIR\game\shared,$SRCDIR\thirdparty\protobuf-3.5.1\src"
 		$PreprocessorDefinitions		"$BASE;NO_STRING_T;VECTOR;VERSION_SAFE_STEAM_API_INTERFACES;PROTECTED_THINGS_ENABLE;NO_STEAM_GAMECOORDINATOR"
 		$PreprocessorDefinitions		"$BASE;strncpy=use_Q_strncpy_instead;_snprintf=use_Q_snprintf_instead" [!$PS3]
 	}
